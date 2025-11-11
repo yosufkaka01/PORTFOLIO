@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio — Projects</title>
+  <meta name="description" content="Portfolio">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body id="top">
+  <a class="sr-only" href="#main">Skip to content</a>
+
+<header>
+  <div class="container nav">
+    <a class="brand" href="index.html">Portfolio</a>
+    <nav class="menu" aria-label="Primary">
+      <a href="index.html" style='font-weight:600'>Projects</a>
+      <a href="contact.html" >Contact</a>
+    </nav>
+  </div>
+</header>
+
+  <main id="main">
+
+<section class="container hero">
+  <h1>Selected Work</h1>
+  <p>Three quick snapshots—mechanical design, light automation, and an automotive study.</p>
+</section>
+<section class="container">
+  <div class="grid">
+    <a class="card" href="jackrabbit.html">
+      <img alt="JACKRABBIT Trailer placeholder" src="assets/img/jackrabbit.svg">
+      <div class="content">
+        <div class="eyebrow">Mechanics &amp; Prototyping</div>
+        <h2>JACKRABBIT Trailer</h2>
+        <div class="meta">May 2021 — November 2022</div>
+        <p>Bicycle trailer attachment for pets/equipment; SolidWorks 3D, prototyping, design refinement.</p>
+      </div>
+    </a>
+    <a class="card" href="automated-spreadsheet.html">
+      <img alt="Automated Spreadsheet placeholder" src="assets/img/spreadsheet.svg">
+      <div class="content">
+        <div class="eyebrow">Automation &amp; Analysis</div>
+        <h2>Automated Spreadsheet</h2>
+        <div class="meta">October 2024 — February 2025</div>
+        <p>VBA-powered design checks for fast scenario evaluation and consistent results.</p>
+      </div>
+    </a>
+    <a class="card" href="volvo-s60.html">
+      <img alt="2004 Volvo S60 placeholder" src="assets/img/volvo.svg">
+      <div class="content">
+        <div class="eyebrow">Automotive Study</div>
+        <h2>2004 Volvo S60</h2>
+        <div class="meta">July 2025 — December 2025</div>
+        <p>Inline-5 overview—torque characteristics, drivability, and transmission pairing.</p>
+      </div>
+    </a>
+  </div>
+</section>
+
+  </main>
+
+<footer>
+  <div class="container footer-inner">
+    <div>&copy; <span id="year"></span> Your Name</div>
+    <div><a href="#top">Back to top</a></div>
+  </div>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</footer>
+
+</body>
+</html>
